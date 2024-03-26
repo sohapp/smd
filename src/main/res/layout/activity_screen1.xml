@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".screen1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        >
+
+        <ImageView
+            android:layout_width="52dp"
+            android:layout_height="71dp"
+            android:src="@drawable/back"
+            android:id="@+id/back"/>
+
+        <TextView
+            android:layout_width="297dp"
+            android:layout_height="56dp"
+            android:text="Gui demo l201383"
+            android:textSize="35dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4">
+
+        <ImageView
+            android:layout_width="86dp"
+            android:layout_height="64dp"
+            android:background="@drawable/heart" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="one"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+        <ImageView
+            android:layout_width="86dp"
+            android:layout_height="64dp"
+            android:background="@drawable/phone"
+            android:id="@+id/two"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="two"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+        <ImageView
+            android:layout_width="86dp"
+            android:layout_height="64dp"
+            android:background="@drawable/co" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="three"
+            android:textColor="@color/black"
+            android:textSize="22dp" />
+    </LinearLayout>
+
+</LinearLayout>
